@@ -1,0 +1,175 @@
+[
+  {
+    "id": "21ad21a7-c4f5-4b3a-8e77-15dfdb1a7e75",
+    "data": [
+      {
+        "text": "I have ",
+        "userDefined": false
+      },
+      {
+        "text": "a",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "high",
+        "meta": "@symptom",
+        "alias": "symptom",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "fever",
+        "meta": "@symptom",
+        "alias": "symptom",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "972b23ea-9f34-4fd1-bdec-0f03e2a25531",
+    "data": [
+      {
+        "text": "I have a ",
+        "userDefined": false
+      },
+      {
+        "text": "headache",
+        "meta": "@symptom",
+        "alias": "symptom",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b201e766-41f1-47e1-97aa-fb88376730fa",
+    "data": [
+      {
+        "text": "My ",
+        "userDefined": false
+      },
+      {
+        "text": "veins",
+        "meta": "@Parts_main",
+        "alias": "parts_main",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "calf",
+        "meta": "@Parts_main",
+        "alias": "parts_main",
+        "userDefined": false
+      },
+      {
+        "text": " are ",
+        "userDefined": false
+      },
+      {
+        "text": "prominent",
+        "meta": "@symptom",
+        "alias": "symptom",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b34005ff-6224-4806-985a-6131f42d7657",
+    "data": [
+      {
+        "text": "There are ",
+        "userDefined": false
+      },
+      {
+        "text": "red",
+        "meta": "@symptom",
+        "alias": "symptom",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "sores",
+        "meta": "@symptom",
+        "alias": "symptom",
+        "userDefined": true
+      },
+      {
+        "text": " on my ",
+        "userDefined": false
+      },
+      {
+        "text": "nose",
+        "meta": "@Parts_main",
+        "alias": "parts_main",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d46cb458-f26a-40ca-a8d6-2de88f6444aa",
+    "data": [
+      {
+        "text": "My ",
+        "userDefined": false
+      },
+      {
+        "text": "face",
+        "meta": "@Parts_main",
+        "alias": "parts_main",
+        "userDefined": false
+      },
+      {
+        "text": " and my ",
+        "userDefined": false
+      },
+      {
+        "text": "eyes",
+        "meta": "@Parts_main",
+        "alias": "parts_main",
+        "userDefined": false
+      },
+      {
+        "text": " are ",
+        "userDefined": false
+      },
+      {
+        "text": "puffy",
+        "meta": "@symptom",
+        "alias": "symptom",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "lang": "en",
+    "updated": 0
+  }
+]

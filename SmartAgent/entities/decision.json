@@ -1,0 +1,9 @@
+{
+  "id": "7978feb2-a7fa-4ab9-8547-5e77fbc6d3b8",
+  "name": "decision",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

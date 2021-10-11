@@ -1,0 +1,59 @@
+[
+  {
+    "id": "d7b4000d-2f3e-409c-9cde-11a24f4be2a1",
+    "data": [
+      {
+        "text": "how much is the ",
+        "userDefined": false
+      },
+      {
+        "text": "litecoin",
+        "meta": "@sys.any",
+        "alias": "coinname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5b52be0d-bd83-4181-9bd2-784fa527c1f7",
+    "data": [
+      {
+        "text": "what is the price of ",
+        "userDefined": false
+      },
+      {
+        "text": "bitcoin",
+        "meta": "@sys.any",
+        "alias": "coinname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0919f0a2-039c-4a30-a92f-bbfb120d86a6",
+    "data": [
+      {
+        "text": "price of ",
+        "userDefined": false
+      },
+      {
+        "text": "bitcoin",
+        "meta": "@sys.any",
+        "alias": "coinname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

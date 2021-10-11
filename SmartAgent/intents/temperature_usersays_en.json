@@ -1,0 +1,40 @@
+[
+  {
+    "id": "6c29291c-987a-49a0-82a4-6070330acab6",
+    "data": [
+      {
+        "text": "what is the temperature in ",
+        "userDefined": false
+      },
+      {
+        "text": "Shengzhen",
+        "meta": "@sys.any",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5c638d9c-7fea-4c57-9811-d41f42ac2348",
+    "data": [
+      {
+        "text": "what is the temperature in ",
+        "userDefined": false
+      },
+      {
+        "text": "Singapore",
+        "meta": "@sys.any",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "id": "da9892ac-7306-47c0-a1c5-64ca9e43a0f3",
+  "name": "symptom",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": true
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "35b6a10d-75ba-4a6d-a065-fb9c16ac384b",
+    "data": [
+      {
+        "text": "what is the weather in ",
+        "userDefined": false
+      },
+      {
+        "text": "Singapore",
+        "meta": "@sys.any",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4621b914-a535-4824-b2c8-ff93d58811ea",
+    "data": [
+      {
+        "text": "what is the weather in ",
+        "userDefined": false
+      },
+      {
+        "text": "Shanghai",
+        "meta": "@sys.any",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "06b144c3-68f4-4f9b-999e-8522aabc87a2",
+    "data": [
+      {
+        "text": "what is the weather in ",
+        "userDefined": false
+      },
+      {
+        "text": "Beijing",
+        "meta": "@sys.any",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

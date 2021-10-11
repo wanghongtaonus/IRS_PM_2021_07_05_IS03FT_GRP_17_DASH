@@ -1,0 +1,395 @@
+[
+  {
+    "value": "abdomen",
+    "synonyms": [
+      "abdomen",
+      "abdominal"
+    ]
+  },
+  {
+    "value": "alcohol",
+    "synonyms": [
+      "alcohol"
+    ]
+  },
+  {
+    "value": "anal",
+    "synonyms": [
+      "anal"
+    ]
+  },
+  {
+    "value": "anus",
+    "synonyms": [
+      "anus"
+    ]
+  },
+  {
+    "value": "appetite",
+    "synonyms": [
+      "appetite"
+    ]
+  },
+  {
+    "value": "back",
+    "synonyms": [
+      "back"
+    ]
+  },
+  {
+    "value": "balance",
+    "synonyms": [
+      "balance"
+    ]
+  },
+  {
+    "value": "belly",
+    "synonyms": [
+      "belly"
+    ]
+  },
+  {
+    "value": "blackheads",
+    "synonyms": [
+      "blackheads"
+    ]
+  },
+  {
+    "value": "bladder",
+    "synonyms": [
+      "bladder"
+    ]
+  },
+  {
+    "value": "blood",
+    "synonyms": [
+      "blood"
+    ]
+  },
+  {
+    "value": "body",
+    "synonyms": [
+      "body"
+    ]
+  },
+  {
+    "value": "bowel",
+    "synonyms": [
+      "bowel"
+    ]
+  },
+  {
+    "value": "chest",
+    "synonyms": [
+      "chest"
+    ]
+  },
+  {
+    "value": "concentration",
+    "synonyms": [
+      "concentration"
+    ]
+  },
+  {
+    "value": "dusting",
+    "synonyms": [
+      "dusting"
+    ]
+  },
+  {
+    "value": "extremeties",
+    "synonyms": [
+      "extremeties"
+    ]
+  },
+  {
+    "value": "eyes",
+    "synonyms": [
+      "eyes"
+    ]
+  },
+  {
+    "value": "fluid",
+    "synonyms": [
+      "fluid"
+    ]
+  },
+  {
+    "value": "gases",
+    "synonyms": [
+      "gases"
+    ]
+  },
+  {
+    "value": "hands",
+    "synonyms": [
+      "hands"
+    ]
+  },
+  {
+    "value": "heart",
+    "synonyms": [
+      "heart"
+    ]
+  },
+  {
+    "value": "hip",
+    "synonyms": [
+      "hip"
+    ]
+  },
+  {
+    "value": "joint",
+    "synonyms": [
+      "joint"
+    ]
+  },
+  {
+    "value": "injections",
+    "synonyms": [
+      "injections"
+    ]
+  },
+  {
+    "value": "knee",
+    "synonyms": [
+      "joints"
+    ]
+  },
+  {
+    "value": "legs",
+    "synonyms": [
+      "legs"
+    ]
+  },
+  {
+    "value": "limbs",
+    "synonyms": [
+      "limbs"
+    ]
+  },
+  {
+    "value": "lips",
+    "synonyms": [
+      "lips"
+    ]
+  },
+  {
+    "value": "liver",
+    "synonyms": [
+      "liver"
+    ]
+  },
+  {
+    "value": "lymph",
+    "synonyms": [
+      "lymph"
+    ]
+  },
+  {
+    "value": "marita",
+    "synonyms": [
+      "marita"
+    ]
+  },
+  {
+    "value": "menstruation",
+    "synonyms": [
+      "menstruation"
+    ]
+  },
+  {
+    "value": "micturition",
+    "synonyms": [
+      "micturition"
+    ]
+  },
+  {
+    "value": "mood",
+    "synonyms": [
+      "mood"
+    ]
+  },
+  {
+    "value": "movement",
+    "synonyms": [
+      "movement"
+    ]
+  },
+  {
+    "value": "muscle",
+    "synonyms": [
+      "muscle"
+    ]
+  },
+  {
+    "value": "nails",
+    "synonyms": [
+      "nails"
+    ]
+  },
+  {
+    "value": "neck",
+    "synonyms": [
+      "neck"
+    ]
+  },
+  {
+    "value": "nose",
+    "synonyms": [
+      "nose"
+    ]
+  },
+  {
+    "value": "ooze",
+    "synonyms": [
+      "ooze"
+    ]
+  },
+  {
+    "value": "crust",
+    "synonyms": [
+      "crust"
+    ]
+  },
+  {
+    "value": "pimples",
+    "synonyms": [
+      "pimples"
+    ]
+  },
+  {
+    "value": "scurring",
+    "synonyms": [
+      "scurring"
+    ]
+  },
+  {
+    "value": "sensorium",
+    "synonyms": [
+      "sensorium"
+    ]
+  },
+  {
+    "value": "skin",
+    "synonyms": [
+      "skin"
+    ]
+  },
+  {
+    "value": "smell",
+    "synonyms": [
+      "smell"
+    ]
+  },
+  {
+    "value": "speech",
+    "synonyms": [
+      "speech"
+    ]
+  },
+  {
+    "value": "sputum",
+    "synonyms": [
+      "sputum"
+    ]
+  },
+  {
+    "value": "stomach",
+    "synonyms": [
+      "stomach"
+    ]
+  },
+  {
+    "value": "stool",
+    "synonyms": [
+      "stool"
+    ]
+  },
+  {
+    "value": "sugar",
+    "synonyms": [
+      "sugar"
+    ]
+  },
+  {
+    "value": "throat",
+    "synonyms": [
+      "throat"
+    ]
+  },
+  {
+    "value": "thyroid",
+    "synonyms": [
+      "thyroid"
+    ]
+  },
+  {
+    "value": "tongue",
+    "synonyms": [
+      "tongue"
+    ]
+  },
+  {
+    "value": "urination",
+    "synonyms": [
+      "urination",
+      "urine"
+    ]
+  },
+  {
+    "value": "veins",
+    "synonyms": [
+      "veins"
+    ]
+  },
+  {
+    "value": "vessels",
+    "synonyms": [
+      "vessels"
+    ]
+  },
+  {
+    "value": "vision",
+    "synonyms": [
+      "vision",
+      "visual"
+    ]
+  },
+  {
+    "value": "walking",
+    "synonyms": [
+      "walking"
+    ]
+  },
+  {
+    "value": "weight",
+    "synonyms": [
+      "weight"
+    ]
+  },
+  {
+    "value": "face",
+    "synonyms": [
+      "face"
+    ]
+  },
+  {
+    "value": "feet",
+    "synonyms": [
+      "feet"
+    ]
+  },
+  {
+    "value": "calf",
+    "synonyms": [
+      "calf"
+    ]
+  },
+  {
+    "value": "sinus",
+    "synonyms": [
+      "sinus"
+    ]
+  }
+]

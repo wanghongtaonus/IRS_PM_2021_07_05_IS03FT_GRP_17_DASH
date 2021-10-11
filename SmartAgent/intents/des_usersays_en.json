@@ -1,0 +1,70 @@
+[
+  {
+    "id": "50f193ee-976a-4c98-b68a-c64a49d6fd3a",
+    "data": [
+      {
+        "text": "sure",
+        "meta": "@decision",
+        "alias": "decision",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "26eaadf0-5024-43d9-9784-3b1fa92517c9",
+    "data": [
+      {
+        "text": "not",
+        "meta": "@decision",
+        "alias": "decision",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "be03bc60-2b74-4703-8efa-133158d544f8",
+    "data": [
+      {
+        "text": "no",
+        "meta": "@decision",
+        "alias": "decision",
+        "userDefined": false
+      },
+      {
+        "text": " i dont",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5846b89a-fcc1-4a45-8a1d-6e98e214c856",
+    "data": [
+      {
+        "text": "yes",
+        "meta": "@decision",
+        "alias": "decision",
+        "userDefined": false
+      },
+      {
+        "text": " i have",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

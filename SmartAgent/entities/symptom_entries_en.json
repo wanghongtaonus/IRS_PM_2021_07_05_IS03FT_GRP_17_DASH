@@ -1,0 +1,660 @@
+[
+  {
+    "value": "abnormal",
+    "synonyms": [
+      "abnormal"
+    ]
+  },
+  {
+    "value": "acidity",
+    "synonyms": [
+      "acidity"
+    ]
+  },
+  {
+    "value": "altered",
+    "synonyms": [
+      "altered"
+    ]
+  },
+  {
+    "value": "anxiety",
+    "synonyms": [
+      "anxiety"
+    ]
+  },
+  {
+    "value": "bleeding",
+    "synonyms": [
+      "bleeding"
+    ]
+  },
+  {
+    "value": "blister",
+    "synonyms": [
+      "blister"
+    ]
+  },
+  {
+    "value": "blood",
+    "synonyms": [
+      "blood",
+      "bloody"
+    ]
+  },
+  {
+    "value": "blurred",
+    "synonyms": [
+      "blurred"
+    ]
+  },
+  {
+    "value": "distorted",
+    "synonyms": [
+      "distorted"
+    ]
+  },
+  {
+    "value": "breathlessness",
+    "synonyms": [
+      "breathlessness"
+    ]
+  },
+  {
+    "value": "brittle",
+    "synonyms": [
+      "brittle"
+    ]
+  },
+  {
+    "value": "bruising",
+    "synonyms": [
+      "bruising"
+    ]
+  },
+  {
+    "value": "burning",
+    "synonyms": [
+      "burning"
+    ]
+  },
+  {
+    "value": "chills",
+    "synonyms": [
+      "chills"
+    ]
+  },
+  {
+    "value": "cold",
+    "synonyms": [
+      "cold"
+    ]
+  },
+  {
+    "value": "coma",
+    "synonyms": [
+      "coma"
+    ]
+  },
+  {
+    "value": "congestion",
+    "synonyms": [
+      "congestion"
+    ]
+  },
+  {
+    "value": "constipation",
+    "synonyms": [
+      "constipation"
+    ]
+  },
+  {
+    "value": "consumption",
+    "synonyms": [
+      "consumption"
+    ]
+  },
+  {
+    "value": "contacts",
+    "synonyms": [
+      "contacts"
+    ]
+  },
+  {
+    "value": "continuous",
+    "synonyms": [
+      "continuous"
+    ]
+  },
+  {
+    "value": "cough",
+    "synonyms": [
+      "cough"
+    ]
+  },
+  {
+    "value": "cramps",
+    "synonyms": [
+      "cramps"
+    ]
+  },
+  {
+    "value": "dark",
+    "synonyms": [
+      "dark"
+    ]
+  },
+  {
+    "value": "dehydration",
+    "synonyms": [
+      "dehydration"
+    ]
+  },
+  {
+    "value": "dents",
+    "synonyms": [
+      "dents"
+    ]
+  },
+  {
+    "value": "depression",
+    "synonyms": [
+      "depression"
+    ]
+  },
+  {
+    "value": "diarrhoea",
+    "synonyms": [
+      "diarrhoea"
+    ]
+  },
+  {
+    "value": "discomfort",
+    "synonyms": [
+      "discomfort"
+    ]
+  },
+  {
+    "value": "distention",
+    "synonyms": [
+      "distention"
+    ]
+  },
+  {
+    "value": "disturbances",
+    "synonyms": [
+      "disturbances"
+    ]
+  },
+  {
+    "value": "dizziness",
+    "synonyms": [
+      "dizziness"
+    ]
+  },
+  {
+    "value": "enlarged",
+    "synonyms": [
+      "enlarged"
+    ]
+  },
+  {
+    "value": "eruptions",
+    "synonyms": [
+      "eruptions"
+    ]
+  },
+  {
+    "value": "failure",
+    "synonyms": [
+      "failure"
+    ]
+  },
+  {
+    "value": "fast",
+    "synonyms": [
+      "fast"
+    ]
+  },
+  {
+    "value": "fatigue",
+    "synonyms": [
+      "fatigue"
+    ]
+  },
+  {
+    "value": "fever",
+    "synonyms": [
+      "fever"
+    ]
+  },
+  {
+    "value": "foul",
+    "synonyms": [
+      "foul"
+    ]
+  },
+  {
+    "value": "gain",
+    "synonyms": [
+      "gain"
+    ]
+  },
+  {
+    "value": "headache",
+    "synonyms": [
+      "headache"
+    ]
+  },
+  {
+    "value": "hunger",
+    "synonyms": [
+      "hunger"
+    ]
+  },
+  {
+    "value": "increased",
+    "synonyms": [
+      "increased"
+    ]
+  },
+  {
+    "value": "indigestion",
+    "synonyms": [
+      "indigestion"
+    ]
+  },
+  {
+    "value": "inflammatory",
+    "synonyms": [
+      "inflammatory"
+    ]
+  },
+  {
+    "value": "irregular",
+    "synonyms": [
+      "irregular"
+    ]
+  },
+  {
+    "value": "irritability",
+    "synonyms": [
+      "irritability",
+      "irritation"
+    ]
+  },
+  {
+    "value": "itching",
+    "synonyms": [
+      "itching"
+    ]
+  },
+  {
+    "value": "lack",
+    "synonyms": [
+      "lack"
+    ]
+  },
+  {
+    "value": "lethargy",
+    "synonyms": [
+      "lethargy"
+    ]
+  },
+  {
+    "value": "loss",
+    "synonyms": [
+      "loss"
+    ]
+  },
+  {
+    "value": "malaise",
+    "synonyms": [
+      "malaise"
+    ]
+  },
+  {
+    "value": "mucoid",
+    "synonyms": [
+      "mucoid"
+    ]
+  },
+  {
+    "value": "nausea",
+    "synonyms": [
+      "nausea"
+    ]
+  },
+  {
+    "value": "obesity",
+    "synonyms": [
+      "obesity"
+    ]
+  },
+  {
+    "value": "overload",
+    "synonyms": [
+      "overload"
+    ]
+  },
+  {
+    "value": "pain",
+    "synonyms": [
+      "pain",
+      "painful"
+    ]
+  },
+  {
+    "value": "palpitations",
+    "synonyms": [
+      "palpitations"
+    ]
+  },
+  {
+    "value": "passage",
+    "synonyms": [
+      "passage"
+    ]
+  },
+  {
+    "value": "patches",
+    "synonyms": [
+      "patches"
+    ]
+  },
+  {
+    "value": "peeling",
+    "synonyms": [
+      "peeling"
+    ]
+  },
+  {
+    "value": "phlegm",
+    "synonyms": [
+      "phlegm"
+    ]
+  },
+  {
+    "value": "polyuria",
+    "synonyms": [
+      "polyuria"
+    ]
+  },
+  {
+    "value": "pressure",
+    "synonyms": [
+      "pressure"
+    ]
+  },
+  {
+    "value": "prominent",
+    "synonyms": [
+      "prominent"
+    ]
+  },
+  {
+    "value": "puffy",
+    "synonyms": [
+      "puffy"
+    ]
+  },
+  {
+    "value": "pus",
+    "synonyms": [
+      "pus"
+    ]
+  },
+  {
+    "value": "rash",
+    "synonyms": [
+      "rash"
+    ]
+  },
+  {
+    "value": "redness",
+    "synonyms": [
+      "redness"
+    ]
+  },
+  {
+    "value": "restlessness",
+    "synonyms": [
+      "restlessness"
+    ]
+  },
+  {
+    "value": "runny",
+    "synonyms": [
+      "runny"
+    ]
+  },
+  {
+    "value": "rusty",
+    "synonyms": [
+      "rusty"
+    ]
+  },
+  {
+    "value": "shivering",
+    "synonyms": [
+      "shivering",
+      "silver"
+    ]
+  },
+  {
+    "value": "slurred",
+    "synonyms": [
+      "slurred"
+    ]
+  },
+  {
+    "value": "sneezing",
+    "synonyms": [
+      "sneezing"
+    ]
+  },
+  {
+    "value": "sore",
+    "synonyms": [
+      "sore"
+    ]
+  },
+  {
+    "value": "spinning",
+    "synonyms": [
+      "spinning"
+    ]
+  },
+  {
+    "value": "spots",
+    "synonyms": [
+      "spots",
+      "spotting"
+    ]
+  },
+  {
+    "value": "stiff",
+    "synonyms": [
+      "stiff",
+      "stiffness"
+    ]
+  },
+  {
+    "value": "sunken",
+    "synonyms": [
+      "sunken"
+    ]
+  },
+  {
+    "value": "sweating",
+    "synonyms": [
+      "sweating"
+    ]
+  },
+  {
+    "value": "swelled",
+    "synonyms": [
+      "swelled",
+      "swelling",
+      "swollen"
+    ]
+  },
+  {
+    "value": "swings",
+    "synonyms": [
+      "swings"
+    ]
+  },
+  {
+    "value": "tingling",
+    "synonyms": [
+      "tingling"
+    ]
+  },
+  {
+    "value": "toxic",
+    "synonyms": [
+      "toxic"
+    ]
+  },
+  {
+    "value": "transfusion",
+    "synonyms": [
+      "transfusion"
+    ]
+  },
+  {
+    "value": "ulcers",
+    "synonyms": [
+      "ulcers"
+    ]
+  },
+  {
+    "value": "unsteadiness",
+    "synonyms": [
+      "unsteadiness"
+    ]
+  },
+  {
+    "value": "unsterile",
+    "synonyms": [
+      "unsterile"
+    ]
+  },
+  {
+    "value": "vomiting",
+    "synonyms": [
+      "vomiting"
+    ]
+  },
+  {
+    "value": "wasting",
+    "synonyms": [
+      "wasting"
+    ]
+  },
+  {
+    "value": "watering",
+    "synonyms": [
+      "watering"
+    ]
+  },
+  {
+    "value": "weakness",
+    "synonyms": [
+      "weakness"
+    ]
+  },
+  {
+    "value": "yellow",
+    "synonyms": [
+      "yellow",
+      "yellowing",
+      "yellowish"
+    ]
+  },
+  {
+    "value": "extra",
+    "synonyms": [
+      "extra"
+    ]
+  },
+  {
+    "value": "small",
+    "synonyms": [
+      "small"
+    ]
+  },
+  {
+    "value": "nodal",
+    "synonyms": [
+      "nodal"
+    ]
+  },
+  {
+    "value": "acute",
+    "synonyms": [
+      "acute"
+    ]
+  },
+  {
+    "value": "high",
+    "synonyms": [
+      "high"
+    ]
+  },
+  {
+    "value": "mild",
+    "synonyms": [
+      "mild"
+    ]
+  },
+  {
+    "value": "excessive",
+    "synonyms": [
+      "excessive"
+    ]
+  },
+  {
+    "value": "internal",
+    "synonyms": [
+      "internal"
+    ]
+  },
+  {
+    "value": "behind",
+    "synonyms": [
+      "behind"
+    ]
+  },
+  {
+    "value": "filled",
+    "synonyms": [
+      "filled"
+    ]
+  },
+  {
+    "value": "continuous",
+    "synonyms": [
+      "continuous"
+    ]
+  },
+  {
+    "value": "red",
+    "synonyms": [
+      "red"
+    ]
+  },
+  {
+    "value": "drying",
+    "synonyms": [
+      "drying"
+    ]
+  },
+  {
+    "value": "typhos",
+    "synonyms": [
+      "typhos"
+    ]
+  }
+]

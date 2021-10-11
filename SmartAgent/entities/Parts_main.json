@@ -1,0 +1,9 @@
+{
+  "id": "26cb8023-5291-4917-94e7-28accfa7a5f5",
+  "name": "Parts_main",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": true
+}
