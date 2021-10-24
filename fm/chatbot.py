@@ -113,16 +113,31 @@ def wait_get_nextq(tt_symptom, id_default, mode): #mode=1 asked_yes mode = 2 ask
         pass
     nextq,ok = find_nextq(id_default)
     return nextq,ok
-    
 
+def generate_sentence(symptom, sym_list):
+    for sym in sym_list:
+        if(sym.symptom == symptom):
+            break
+    if(sym.part_num == 0 and sym.sym_num == 1):
+        return 'Do you have {}'.format(sym.syms[0])
+    elif(sym.part_num == 1 and sym.sym_num == 1):
+        return 'Do you have {} in your {}'.format(sym.syms[0], sym.parts[0])
+    elif(sym.part_num == 2 and sym.sym_num == 1):
+        return 'Do you feel {} in your {} and {}'.format(sym.syms[0], sym.parts[0], sym.parts[1])
+    elif(sym.part_num == 1 and sym.sym_num == 2):
+        return 'Do you have {} {} {}'.format(sym.syms[1], sym.parts[0], sym.syms[0])
+    else:
+        return "Please say it again."
 
 def main():
     global cond
     global resp
     global parts_list
     global syms_list
+    global id_default
     sym_list, all_sym_list, all_part_list = Init_all()
     while 1:    #root loop
+        id_default += 1
         cond.acquire()
         cond.wait()
         print("step 1")
@@ -140,7 +155,7 @@ def main():
                         temp_list = sym_filter(c_list, i, 2)
                         if(len(temp_list) >= 1):
                             c_list = temp_list
-            resp = "What else?"
+            resp = "Is there anything else you feel uncomfortable with?"
             print("ttttttt")
             cond.notify()
             print("sssssss")
@@ -162,7 +177,7 @@ def main():
                 temp = out_parts[p_count]
                 typ = 1
             elif(len(out_syms) > 0):
-                resp = "So it's " + out_syms[s_count]
+                resp = "Is it {}?".format(out_syms[s_count])
                 temp = out_syms[s_count]
                 s_count += 1
                 typ = 2
@@ -179,7 +194,7 @@ def main():
         next_question,ok = wait_get_nextq(tt_symptom, id_default, 1)
         print("here 172")
         if(ok == 1):
-            resp = "Do you have " + next_question
+            resp = generate_sentence(next_question, sym_list)
             cond.notify()
             cond.wait()
         elif(ok == 0):
@@ -192,7 +207,7 @@ def main():
             if(resp == "yes"):
                 next_question,ok = wait_get_nextq(next_question, id_default, 1)
                 if(ok == 1):
-                    resp = "Do you have " + next_question
+                    resp = generate_sentence(next_question, sym_list)
                     cond.notify()
                     cond.wait()
                 elif(ok == 0):
@@ -202,7 +217,7 @@ def main():
             elif(resp == "no"):
                 next_question,ok = wait_get_nextq(next_question, id_default, 2)
                 if(ok == 1):
-                    resp = "Do you have " + next_question
+                    resp = generate_sentence(next_question, sym_list)
                     cond.notify()
                     cond.wait()
                 elif(ok == 0):
