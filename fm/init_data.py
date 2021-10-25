@@ -13,14 +13,15 @@ class sym_Node:
         self.info = [symptom, part_num, parts, sym_num, syms]
 
 
-def Init_row(default_id = 1):
+def Init_row(num = 10):
     db = update_db()
-    temp = search_by_id(default_id)
-    for i in db.columns:
-        temp[i] = 0
-    temp["id"] = default_id
-    temp["name"] = "Joe"
-    edit_row(temp)
+    for idx in range(num):
+        temp = search_by_id(idx + 1)
+        for i in db.columns:
+            temp[i] = 0
+        temp["id"] = idx + 1
+        temp["name"] = "Joe"
+        edit_row(temp)
     return
 
 

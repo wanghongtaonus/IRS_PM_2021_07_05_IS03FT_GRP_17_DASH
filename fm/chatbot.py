@@ -135,7 +135,9 @@ def main():
     global parts_list
     global syms_list
     global id_default
-    sym_list, all_sym_list, all_part_list = Init_all()
+    global sym_list
+    global all_sym_list
+    global all_part_list
     while 1:    #root loop
         id_default += 1
         cond.acquire()
@@ -228,12 +230,18 @@ def main():
         
 def um_process():
     global lock
+    print("um_main in !!!!")
     while 1:
-        um_main(lock)
+        ok = um_main(lock)
+        if(ok == 0):
+            break
 
 parts_list = []
 syms_list = []
 resp = ""
+db = update_db()
+print("iiiiiiiiiiii")
+sym_list, all_sym_list, all_part_list = Init_all()
 cond = threading.Condition()
 t_main = threading.Thread(target=main)
 print("t_main start")

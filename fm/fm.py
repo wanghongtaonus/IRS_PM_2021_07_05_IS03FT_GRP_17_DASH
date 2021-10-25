@@ -4,6 +4,7 @@ import pandas as pd
 
 #reload db
 def update_db(rt_file_path = "../rt/"):
+    #print(os.getcwd())
     #print(rt_file_path + "runtime.csv")
     if(os.path.exists(rt_file_path + "runtime.csv") == True):
         df = pd.read_csv(rt_file_path + "runtime.csv")
