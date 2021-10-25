@@ -1,5 +1,5 @@
 import sys
-import fm
+from fm import *
 import os
 import time
 import md
@@ -7,17 +7,24 @@ import pandas as pd
 import threading
 
 def wait_lock(lock):
+    #print("get")
     lock.acquire()
 
 
 
 def rel_lock(lock): 
+    #print("release")
     lock.release()
     
 
 def um_main(lock):
     wait_lock(lock)
-    db = fm.update_db()
+    try:
+        db = update_db()
+    except:
+        rel_lock(lock)
+        print("um_main return")
+        return 0
     t_list = db.loc[db.owner == 1]
     if(len(t_list) > 0):
         print("detect owner == 1")
@@ -49,8 +56,9 @@ def um_main(lock):
                 md.mk_report(temp[1])
                 db.loc[idx, "report"] = 0
             db.loc[idx, "owner"] = 0
-            fm.save_db(db)
+            save_db(db)
     rel_lock(lock)
+    return 1
 
 '''
 if __name__ == "__main__":
