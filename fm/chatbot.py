@@ -102,6 +102,16 @@ def detect_owner(idx):
     rel_lock(lock)
     return ok
 
+def wait_get_nextq_muti(tt_symptom, id_default):
+    for i in range(len(tt_symptom)):
+        change_row(id_default, tt_symptom[i], 3)
+    change_row(id_default, "next_question", 1)
+    change_row(id_default, "owner", 1)
+    while(detect_owner(id_default) == 0):
+        pass
+    nextq,ok = find_nextq(id_default)
+    return nextq,ok
+
 def wait_get_nextq(tt_symptom, id_default, mode): #mode=1 asked_yes mode = 2 asked_no
     if(mode == 1):
         change_row(id_default, tt_symptom, 3)
@@ -118,6 +128,8 @@ def generate_sentence(symptom, sym_list):
     for sym in sym_list:
         if(sym.symptom == symptom):
             break
+    if(sym.part_num == 1 and sym.sym_num == 0):
+        return 'Do you have {}'.format(sym.parts[0])
     if(sym.part_num == 0 and sym.sym_num == 1):
         return 'Do you have {}'.format(sym.syms[0])
     elif(sym.part_num == 1 and sym.sym_num == 1):
@@ -126,6 +138,8 @@ def generate_sentence(symptom, sym_list):
         return 'Do you feel {} in your {} and {}'.format(sym.syms[0], sym.parts[0], sym.parts[1])
     elif(sym.part_num == 1 and sym.sym_num == 2):
         return 'Do you have {} {} {}'.format(sym.syms[1], sym.parts[0], sym.syms[0])
+    elif(sym.part_num == 0 and sym.sym_num == 2):
+        return 'Do you have {} {}'.format(sym.syms[0], sym.syms[1])
     else:
         return "Please say it again."
 
@@ -143,6 +157,7 @@ def main():
         cond.acquire()
         cond.wait()
         print("step 1")
+        tt_symptom = []
         while 1:   #step 1: patients describe
             c_list = sym_list
             if(len(parts_list) > 0):
@@ -157,6 +172,36 @@ def main():
                         temp_list = sym_filter(c_list, i, 2)
                         if(len(temp_list) >= 1):
                             c_list = temp_list
+            ###################
+            p_count = 0
+            s_count = 0
+            print("step 2")
+            while(len(c_list) > 1):#check if the first symptom is complete
+                out_parts,out_syms = find_next(c_list)
+                temp = ""
+                typ = 0
+                if(len(out_parts) > 0):
+                    resp = "Do you feel bad in " + out_parts[p_count]
+                    p_count += 1
+                    temp = out_parts[p_count]
+                    typ = 1
+                elif(len(out_syms) > 0):
+                    resp = "Is it {}?".format(out_syms[s_count])
+                    temp = out_syms[s_count]
+                    s_count += 1
+                    typ = 2
+                cond.notify()
+                cond.wait()
+                if(resp == "no"):
+                    temp_list = sym_filter_no(c_list, temp, typ)
+                    if(len(temp_list) >= 1):
+                        c_list = temp_list
+                elif(resp == "yes"):
+                    temp_list = sym_filter(c_list, temp, typ)
+                    if(len(temp_list) >= 1):
+                        c_list = temp_list
+            ######################
+            tt_symptom.append(c_list[0].symptom)
             resp = "Is there anything else you feel uncomfortable with?"
             print("ttttttt")
             cond.notify()
@@ -165,7 +210,7 @@ def main():
             print(resp)
             if(resp == "no"):
                 break
-        
+        '''
         p_count = 0
         s_count = 0
         print("step 2")
@@ -186,14 +231,16 @@ def main():
             cond.notify()
             cond.wait()
             if(resp == "no"):
-                continue
-            if(resp == "yes"):
+                temp_list = sym_filter_no(c_list, temp, typ)
+                if(len(temp_list) >= 1):
+                    c_list = temp_list
+            elif(resp == "yes"):
                 temp_list = sym_filter(c_list, temp, typ)
                 if(len(temp_list) >= 1):
                     c_list = temp_list
+        '''
         print("step 3")
-        tt_symptom = c_list[0].symptom
-        next_question,ok = wait_get_nextq(tt_symptom, id_default, 1)
+        next_question,ok = wait_get_nextq_muti(tt_symptom, id_default)
         print("here 172")
         if(ok == 1):
             resp = generate_sentence(next_question, sym_list)
