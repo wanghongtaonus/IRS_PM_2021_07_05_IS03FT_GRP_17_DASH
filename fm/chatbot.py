@@ -141,7 +141,7 @@ def generate_sentence(symptom, sym_list):
     elif(sym.part_num == 0 and sym.sym_num == 2):
         return 'Do you have {} {}'.format(sym.syms[0], sym.syms[1])
     else:
-        return "Please say it again."
+        return "Please say that again."
 
 def main():
     global cond
@@ -202,7 +202,8 @@ def main():
                         c_list = temp_list
             ######################
             tt_symptom.append(c_list[0].symptom)
-            resp = "Is there anything else you feel uncomfortable with?"
+            resp = "Is there anything else you would like to mention?"
+
             print("ttttttt")
             cond.notify()
             print("sssssss")
@@ -247,7 +248,7 @@ def main():
             cond.notify()
             cond.wait()
         elif(ok == 0):
-            resp = "That's all, thank you."
+            resp = "I think that's all the information I need, I'll pass it on to the doctor."
             cond.notify()
             cond.release()
             continue
@@ -260,7 +261,7 @@ def main():
                     cond.notify()
                     cond.wait()
                 elif(ok == 0):
-                    resp = "That's all, thank you."
+                    resp = "I think that's all the information I need, I'll pass it on to the doctor."
                     cond.notify()
                     break
             elif(resp == "no"):
@@ -270,7 +271,7 @@ def main():
                     cond.notify()
                     cond.wait()
                 elif(ok == 0):
-                    resp = "That's all, thank you."
+                    resp = "I think that's all the information I need, I'll pass it on to the doctor."
                     cond.notify()
                     break  
         cond.release()
