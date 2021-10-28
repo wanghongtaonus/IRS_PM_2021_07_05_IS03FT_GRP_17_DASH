@@ -92,6 +92,17 @@ def sym_filter(sym_list, data_in, data_typ):
                 out_list.append(item)
     return out_list
 
+#filter
+def sym_filter_no(sym_list, data_in, data_typ):
+    out_list = []
+    for item in sym_list:
+        if(data_typ == 1):
+            if(data_in not in item.parts):
+                out_list.append(item)
+        elif(data_typ == 2):
+            if(data_in not in item.syms):
+                out_list.append(item)
+    return out_list
 
 def find_next(out_list):
     l = len(out_list)
