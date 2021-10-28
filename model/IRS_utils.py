@@ -7,7 +7,7 @@ import pandas as pd
 import pickle
 
 #Load model
-diagnosis_model = pickle.load(open('../model/knnClass_pickle', 'rb'))
+diagnosis_model = pickle.load(open('../model/knnpickle_file', 'rb'))
 #Load the sample data
 sample_data = pd.read_csv('../model/Training.csv')
 # Define the possible diagnosis labels
