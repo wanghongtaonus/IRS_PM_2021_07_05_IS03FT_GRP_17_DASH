@@ -53,7 +53,7 @@ def NextQuestion(symptoms,NegSymptoms):
     except:
       print("symptom not in next symptoms")
       continue
-  if len(dict_ill) > 0:
+  if len(predict_illness) > 1:
     t = sorted(dict_ill.items(), key=lambda item:item[1], reverse=True)
     return t[0][0],predictions
   else:
