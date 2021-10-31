@@ -33,11 +33,11 @@ class MainWindow(QMainWindow):
         super(MainWindow, self).__init__(*args, **kwargs)
         
         # set windows name
-        self.setWindowTitle("Search illness for doctors")
+        self.setWindowTitle("DASH patient reports")
 
         # set status bar
         self.status = self.statusBar()
-        self.status.showMessage("i am at main page～")
+        self.status.showMessage("Enjoy using DASH")
 
         # set window size
         self.resize(1000, 800)
@@ -78,8 +78,8 @@ class MainWindow(QMainWindow):
         bottom_left_frame = QFrame(self)
         blank_label = QLabel(bottom_left_frame)
         blank_layout = QVBoxLayout(bottom_left_frame)
-        blank_label.setText("illness for doctor")
-        blank_label.setFixedHeight(40)
+        blank_label.setText("You can search for patients with their name or ID.\nReview the patients sympoms and daignosis.\nMore feature to come soon!")
+        blank_label.setFixedHeight(60)
         blank_layout.addWidget(blank_label)
         self.webEngineView = QWebEngineView(bottom_left_frame)
         self.webEngineView.close()
@@ -115,8 +115,8 @@ class MainWindow(QMainWindow):
 
         # 建模园地 使用 TreeView　水平布局　应该读取数据库
         self.friend_tree = QTreeWidget(right_frame)
-        self.friend_tree.setColumnCount(5)  # 一列 
-        self.friend_tree.setHeaderLabels(['name', 'id', 'symptoms','illness','threapy']) # 设置标题
+        self.friend_tree.setColumnCount(4)  # 一列 
+        self.friend_tree.setHeaderLabels(['name', 'id', 'symptoms','illness']) # 设置标题
         self.root = QTreeWidgetItem(self.friend_tree) # 设置根节点
         self.friend_tree.setColumnWidth(4, 300) # 设置宽度s
         # 设置子节点
@@ -191,7 +191,6 @@ class MainWindow(QMainWindow):
         # 注意先后顺序，resize　在前面会使代码无效
         self.splitter1.setMinimumWidth(300)
         self.splitter2.setMinimumWidth(500)
-        self.resize(1000, 800)
 
     # def show_dialog_page(self):
     #     reply = QMessageBox.warning(self, 'warning', 'u need to input',QMessageBox.Yes)
@@ -230,17 +229,19 @@ class MainWindow(QMainWindow):
             name=all_symptoms['name']
             id=all_symptoms['id']
             print(pre_symptoms)
+            listed_symptoms=""
+            for symp in pre_symptoms:
+                print(symp)
+                listed_symptoms+=symp+"\n"
             illness=all_symptoms['illness']
             self.root.setText(0, str(name)) # 0 表示位置
             self.root.setText(1, str(id))
-            self.root.setText(2,str(pre_symptoms))
+            self.root.setText(2,str(listed_symptoms))
             self.root.setText(3,str(illness))
-            self.root.setText(4,"https://www.cup.edu.cn/medical/disease/commondisease/16419.htm")
             # self.child_name.setText(0, str(name))
             # self.child_name.setText(1, str(id))
             # self.child_name.setText(2,str(pre_symptoms))
             # self.child_name.setText(3,str(illness))
-            # self.child_name.setText(4,"https://www.cup.edu.cn/medical/disease/commondisease/16419.htm")
             primary_screen = QApplication.primaryScreen()
             sshot = primary_screen.grabWindow(0)
             sshot.save('sshot.pdf')

@@ -248,7 +248,7 @@ def main():
             cond.notify()
             cond.wait()
         elif(ok == 0):
-            resp = "I think that's all the information I need, I'll pass it on to the doctor."
+            resp = "I think that's all the information I need, I'll pass it on to the doctor. They will reach out to contact you as soon as possible."
             cond.notify()
             cond.release()
             continue
@@ -261,7 +261,7 @@ def main():
                     cond.notify()
                     cond.wait()
                 elif(ok == 0):
-                    resp = "I think that's all the information I need, I'll pass it on to the doctor."
+                    resp = "I think that's all the information I need, I'll pass it on to the doctor. They will reach out to contact you as soon as possible."
                     cond.notify()
                     break
             elif(resp == "no"):
@@ -271,7 +271,7 @@ def main():
                     cond.notify()
                     cond.wait()
                 elif(ok == 0):
-                    resp = "I think that's all the information I need, I'll pass it on to the doctor."
+                    resp = "I think that's all the information I need, I'll pass it on to the doctor. They will reach out to contact you as soon as possible."
                     cond.notify()
                     break  
         cond.release()
