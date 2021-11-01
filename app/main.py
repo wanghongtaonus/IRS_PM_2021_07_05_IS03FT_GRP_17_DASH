@@ -78,7 +78,7 @@ class MainWindow(QMainWindow):
         bottom_left_frame = QFrame(self)
         blank_label = QLabel(bottom_left_frame)
         blank_layout = QVBoxLayout(bottom_left_frame)
-        blank_label.setText("You can search for patients with their name or ID.\nReview the patients sympoms and daignosis.\nMore feature to come soon!")
+        blank_label.setText("You can search for patients with their name or ID.\nReview the patients symptoms and diagnosis.\nMore features to come soon!")
         blank_label.setFixedHeight(60)
         blank_layout.addWidget(blank_label)
         self.webEngineView = QWebEngineView(bottom_left_frame)
