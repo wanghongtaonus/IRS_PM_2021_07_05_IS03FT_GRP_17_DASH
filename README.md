@@ -1,25 +1,49 @@
-﻿<link rel="stylesheet" href="editormd/css/editormd.css" />
-<div id="test-editor">
-    <textarea style="display:none;">### Editor.md
+H1 SECTION 1 : PROJECT TITLE
+-------------
+Diagnosis and Symptoms Helper
+-------------
 
-**Editor.md**: The open source embeddable online markdown editor, based on CodeMirror & jQuery & Marked.
-    </textarea>
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="editormd/editormd.min.js"></script>
-<script type="text/javascript">
-    $(function() {
-        var editor = editormd("test-editor", {
-            // width  : "100%",
-            // height : "100%",
-            path   : "editormd/lib/"
-        });
-    });
-</script>
+-------------
 
-##H1 SECTION 1 : PROJECT TITLE
-# irsproject
-## Step 1: login your diagflow dashboard
+SECTION 2 : EXECUTIVE SUMMARY
+-------------
+The COVID-19 pandemic has changed the way we approach doctor's visits and medical institution as a whole. With a highly transmissible disease out in the population having sick people congregate in a location is the exact opposite of what doctors and immunologists advise. While the COVID-19 pandemic is waning the impacts it has had on our approach to medicine can be seen across the industry, tele-medicine services are now common place and efforts to reduce patient congregation are still in place to reduce the chances of a potential spike.
+
+Our diagnosis and symptoms helper (DASH) seeks to address this need and provide additional benefits to the institutions it's deployed in. By leveraging the power of machine learning and chatbots we hope to be able to reduce the need for patients to congregate in waiting rooms and reduce some of the workload from the doctors in their already busy workdays. Our system will collect the patient symptoms via a chatbot, these symptoms will then be used to intelligently generate questions to help narrow down the possible diagnoses, once the system has sufficient information the symptoms will be used to provide a potential diagnosis in a report to the doctor. This report will allow the doctor to decide if the patient requires an in person consultation, tele-medicine session, provide prescription or potentially skip the visit to the GP and proceed straight to a specialist.
+
+This project will provide a minimum viable product (MVP) for the system, focusing on the core functionality in order to deploy, test in a real world scenario, and gather feedback to help improve the product. The product has the potential to grow to encompass many useful functionalities such as prescription recommendation, automated booking systems, and improved diagnosis based on the patients medical history.
+
+-------------
+
+SECTION 3 : CREDITS / PROJECT CONTRIBUTION
+-------------
+Official Full Name  | Student ID (MTech Applicable) | Work Items (Who Did What) | Email (Optional)
+------------- | ------------- |-------------  | -------------
+Tadhg Kennedy  | Content Cell | 1. Market Research 2.Intelligent question generation 3.Marketing Video 4.Project report writing| Content Cell
+Meng Chenxi  | Content Cell  | 1.Model development and testing 2. Project report writing| Content Cell
+Wang Hongtao  | A0195158U  | 1.Backend Function 2. UI design and development 3.Project report writing| e0384789@u.nus.edu
+Yang Yizhou | Content Cell  | 1. Backend framework development 2.Chatbot development 3.3.Project report writing | Content Cell
+
+-------------
+
+SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
+-------------
+
+Refer to <Business Video & Technical Video> in Github Folder: Videos
+
+-------------
+
+SECTION 5 : INSTALLATION & USER GUIDE
+-------------
+Refer to <Installation & User Guide> in Github Folder: ProjectReport
+
+-------------
+
+SECTION 6 : PROJECT REPORT / PAPER
+-------------
+
+
+<!-- ## Step 1: login your diagflow dashboard
 ## Step 2: import SmartAgent.zip
 setting -> Export and Import -> Import From ZIP
 ![Image text](https://github.com/wanghongtaonus/irsproject/blob/main/img/p1.png)
@@ -39,4 +63,5 @@ Integrations -> web demo
 ![Image text](https://github.com/wanghongtaonus/irsproject/blob/main/img/p7.png)
 
 ## Step 7：click app_start.bat to start app
-![Image text](https://github.com/wanghongtaonus/irsproject/blob/main/img/p8.png)
+![Image text](https://github.com/wanghongtaonus/irsproject/blob/main/img/p8.png) -->
+
