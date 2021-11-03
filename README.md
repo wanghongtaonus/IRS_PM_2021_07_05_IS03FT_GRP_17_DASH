@@ -20,7 +20,7 @@ SECTION 3 : CREDITS / PROJECT CONTRIBUTION
 Official Full Name  | Student ID (MTech Applicable) | Work Items (Who Did What) | Email (Optional)
 ------------- | ------------- |-------------  | -------------
 Tadhg Kennedy  | A0231552N | 1. Market Research 2.Intelligent question generation 3.Marketing Video 4.Project report writing| e0703584@u.nus.edu
-Meng Chenxi  | A0231546J  | 1.Model development and testing 2. Project report writing| Content Cell
+Meng Chenxi  | A0231546J  | 1.Model development and testing 2. Project report writing| e703578@u.nus.edu
 Wang Hongtao  | A0195158U  | 1.Backend Function 2. UI design and development 3.Project report writing| e0384789@u.nus.edu
 Yang Yizhou | A0231320A  | 1. Backend framework development 2.Chatbot development 3.3.Project report writing | e0703352@u.nus.edu
 
