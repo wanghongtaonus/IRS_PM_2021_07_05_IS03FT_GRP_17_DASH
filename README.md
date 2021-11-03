@@ -35,7 +35,7 @@ Refer to <Business Video & Technical Video> in Github Folder: Videos
 
 SECTION 5 : INSTALLATION & USER GUIDE
 -------------
-[Refer to <Installation & User Guide> in Github Folder:Miscellaneous](./blob/main/Miscellaneous/Installation_guide.docx)
+[Refer to <Installation & User Guide> in Github Folder:Miscellaneous](./Miscellaneous/Installation_guide.docx)
 <!-- (./images/icon.png) -->
 
 -------------
