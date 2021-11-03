@@ -35,7 +35,8 @@ Refer to <Business Video & Technical Video> in Github Folder: Videos
 
 SECTION 5 : INSTALLATION & USER GUIDE
 -------------
-Refer to <Installation & User Guide> in Github Folder: Miscellaneous
+[Refer to <Installation & User Guide> in Github Folder: Miscellaneous]
+(https://github.com/wanghongtaonus/IRS_PM_2021_07_05_IS03FT_GRP_17_DASH/blob/main/Miscellaneous/Installation_guide.docx)
 
 -------------
 
