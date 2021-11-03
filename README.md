@@ -30,6 +30,9 @@ SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 -------------
 
 Refer to <Business Video & Technical Video> in Github Folder: Videos
+Below is youtube link for business and tech video, you also can click to view.
+[Business Video](https://youtu.be/CCPhgDjqObs)
+[Tech Video](https://youtu.be/KGG2cl1YSOg)
 
 -------------
 
@@ -42,7 +45,7 @@ SECTION 5 : INSTALLATION & USER GUIDE
 
 SECTION 6 : PROJECT REPORT / PAPER
 -------------
-Refer to <IRS_Project_Report> in Github Folder: Project Report
+[Refer to <IRS_Project_Report> in Github Folder: Project Report](./ProjectReport/IRS_Project_Report.pdf)
 
 <!-- ## Step 1: login your diagflow dashboard
 ## Step 2: import SmartAgent.zip
