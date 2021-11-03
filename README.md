@@ -50,7 +50,8 @@ SECTION 6 : PROJECT REPORT / PAPER
 -------------
 [Refer to <IRS_Project_Report> in Github Folder: Project Report](./ProjectReport/IRS_Project_Report.pdf)
 
-<!-- ## Step 1: login your diagflow dashboard
+<!-- ##If you are using this system for the first time, pleaes run 'pip install -r requirements.txt' to install requirements.
+## Step 1: login your diagflow dashboard
 ## Step 2: import SmartAgent.zip
 setting -> Export and Import -> Import From ZIP
 ![Image text](https://github.com/wanghongtaonus/irsproject/blob/main/img/p1.png)
