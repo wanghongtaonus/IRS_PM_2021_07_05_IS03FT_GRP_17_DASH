@@ -1,4 +1,4 @@
-H1 SECTION 1 : PROJECT TITLE
+SECTION 1 : PROJECT TITLE
 -------------
 Diagnosis and Symptoms Helper
 -------------
@@ -41,7 +41,7 @@ Refer to <Installation & User Guide> in Github Folder: Miscellaneous
 
 SECTION 6 : PROJECT REPORT / PAPER
 -------------
-Refer to <IRS_Project_Report> in Github Folder: Miscellaneous
+Refer to <IRS_Project_Report> in Github Folder: Project Report
 
 <!-- ## Step 1: login your diagflow dashboard
 ## Step 2: import SmartAgent.zip
