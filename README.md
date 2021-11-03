@@ -35,13 +35,13 @@ Refer to <Business Video & Technical Video> in Github Folder: Videos
 
 SECTION 5 : INSTALLATION & USER GUIDE
 -------------
-Refer to <Installation & User Guide> in Github Folder: ProjectReport
+Refer to <Installation & User Guide> in Github Folder: Miscellaneous
 
 -------------
 
 SECTION 6 : PROJECT REPORT / PAPER
 -------------
-
+Refer to <IRS_Project_Report> in Github Folder: Miscellaneous
 
 <!-- ## Step 1: login your diagflow dashboard
 ## Step 2: import SmartAgent.zip
