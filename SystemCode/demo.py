@@ -30,6 +30,8 @@ def change_row(idx, typ, val):
     wait_lock()
     db = fm.update_db("./rt/")
     db.loc[idx, typ] = val
+    db.loc[idx, "owner"] = 1
+    db.loc[idx, "next_question"] = 1
     fm.save_db(db,"./rt/")
     fm.show("./rt/")
     rel_lock()

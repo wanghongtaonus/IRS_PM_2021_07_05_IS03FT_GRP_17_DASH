@@ -280,6 +280,7 @@ def um_process():
     global lock
     print("um_main in !!!!")
     while 1:
+        time.sleep(0.5)
         ok = um_main(lock)
         if(ok == 0):
             break
